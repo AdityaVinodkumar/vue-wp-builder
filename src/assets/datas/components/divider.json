@@ -1,0 +1,22 @@
+{
+  "name": "Divider",
+  "description": "Divider",
+  "propertyTitle": "DIVIDER SETTINGS",
+  "property":{
+    "custom":[
+      {
+      }
+    ],
+    "general":[
+      {
+        "label": "",
+        "component": "",
+        "param": ""
+      }
+    ]
+  },
+  "style": {
+    "background": "#123123"
+  }
+}
+

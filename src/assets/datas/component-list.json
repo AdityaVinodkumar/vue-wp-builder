@@ -1,0 +1,91 @@
+{
+  "version": "0.1",
+  "page": {
+    "type": "page",
+    "component": "page"
+  },
+  "general": [
+    {
+      "type": "section",
+      "component": "section"
+    },
+    {
+      "type": "column",
+      "component": "column"
+    },
+    {
+      "type": "item",
+      "component": "heading"
+    },
+    {
+      "type": "item",
+      "component": "divider"
+    },
+    {
+      "type": "item",
+      "component": "text"
+    },
+    {
+      "type": "item",
+      "component": "image"
+    },
+    {
+      "type": "item",
+      "component": "gallery"
+    },
+    {
+      "type": "item",
+      "component": "icon-box"
+    },
+    {
+      "type": "item",
+      "component": "video"
+    },
+    {
+      "type": "item",
+      "component": "blog-posts"
+    },
+    {
+      "type": "item",
+      "component": "button"
+    },
+    {
+      "type": "item",
+      "component": "toggles"
+    },
+    {
+      "type": "item",
+      "component": "icon-list"
+    },
+    {
+      "type": "item",
+      "component": "code-block"
+    },
+    {
+      "type": "item",
+      "component": "testimonials"
+    },
+    {
+      "type": "item",
+      "component": "contact-form"
+    },
+    {
+      "type": "item",
+      "component": "social-icons"
+    }
+  ],
+  "avramed": [
+    {
+      "type": "surgery-hours",
+      "component": "surgery-hours"
+    },
+    {
+      "type": "appointments",
+      "component": "appointments"
+    },
+    {
+      "type": "doctors",
+      "component": "doctors"
+    }
+  ]
+}

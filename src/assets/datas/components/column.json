@@ -1,0 +1,97 @@
+{
+  "name": "Column",
+  "description": "Column",
+  "propertyTitle": "COLUMN SETTING",
+  "property":{
+    "custom":[
+      {
+        "label": "Set miniumm height(px)",
+        "component": "section-structure",
+        "param": "structure"
+      }
+    ],
+    "general":[
+      {
+        "label": "Interior Width",
+        "component": "interior-width",
+        "param": "interiorWidth"
+      },
+      {
+        "label": "Menu Anchor ID",
+        "component": "input",
+        "param": "menuAnchorID"
+      }
+    ]
+  },
+  "layout":{
+    "id": "0.0",
+    "type": "column",
+    "component": "column",
+    "property": {
+      "general": {
+        "miniumHeight": "200px",
+        "maxiumHeight": "200px",
+        "gutterWidth": "200px",
+        "equlizeHeight": " false"
+      },
+      "styling": {
+        "background": {
+          "type": "color",
+          "value": "#dbdad7"
+        },
+        "display": {
+          "dispalay": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "alignItems": "stretch",
+          "flexGrow": "1"
+        },
+        "border": {
+          "top": {
+            "type": "solid",
+            "color": "#112233",
+            "width": "2px",
+            "radius": "2px"
+          },
+          "right": {
+            "type": "solid",
+            "color": "#112233",
+            "width": "2px",
+            "radius": "2px"
+          },
+          "bottom": {
+            "type": "solid",
+            "color": "#112233",
+            "width": "2px",
+            "radius": "2px"
+          },
+          "left": {
+            "type": "solid",
+            "color": "#112233",
+            "width": "2px",
+            "radius": "2px"
+          }
+        },
+        "spacing": {
+          "top": {
+            "margin": "10px",
+            "padding": "10px"
+          },
+          "right": {
+            "margin": "10px",
+            "padding": "10px"
+          },
+          "bottom": {
+            "margin": "10px",
+            "padding": "10px"
+          },
+          "left": {
+            "margin": "10px",
+            "padding": "10px"
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,63 @@
+{
+  "name": "Text",
+  "description": "Text",
+  "propertyTitle": "TEXT SETTINGS",
+  "property":{
+    "custom":[
+      {
+      }
+    ],
+    "general":[
+      {
+        "label": "",
+        "component": "",
+        "param": ""
+      }
+    ]
+  },
+  "layout":
+  {
+    "id": "0.0.0",
+    "type": "item",
+    "component": "text",
+    "property": {
+      "general": {
+        "text": "text"
+      },
+      "styling": {
+        "text": {
+          "color": "#112233",
+          "fontSize": 12,
+          "alignment": "center",
+          "lineHeight": 10
+        },
+        "display": {
+          "dispalay": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "flexGrow": "1"
+        },
+        "spacing": {
+          "top": {
+            "margin": "10px",
+            "padding": "10px"
+          },
+          "right": {
+            "margin": "10px",
+            "padding": "10px"
+          },
+          "bottom": {
+            "margin": "10px",
+            "padding": "10px"
+          },
+          "left": {
+            "margin": "10px",
+            "padding": "10px"
+          }
+        }
+      } 
+    }
+  }
+}
+

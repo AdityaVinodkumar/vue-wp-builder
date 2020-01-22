@@ -1,0 +1,30 @@
+{
+  "name": "Heading",
+  "description": "Heading",
+  "propertyTitle": "HEADING SETTING",
+  "property":{
+    "custom":[
+      {
+        "label": "Section Structure",
+        "component": "section-structure",
+        "param": "structure"
+      }
+    ],
+    "general":[
+      {
+        "label": "Interior Width",
+        "component": "interior-width",
+        "param": "interiorWidth"
+      },
+      {
+        "label": "Menu Anchor ID",
+        "component": "input",
+        "param": "menuAnchorID"
+      }
+    ]
+  },
+  "style": {
+    "background": "#123123"
+  }
+}
+

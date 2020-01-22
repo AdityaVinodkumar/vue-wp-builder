@@ -1,0 +1,46 @@
+//-----------Terms-----------------
+
+// app
+
+// bar
+// header
+// footer
+// component
+// property
+
+// page
+// build   --page-build
+// preview  --page-preview
+
+// layout   --page-layout
+// element  --**
+// page     --layout-page
+// section  --layout-section
+// column   --layout-column
+// item     --layout-item
+
+
+"key" = "element@code"
+// page-layout의 요소들은 element이라고 한다.
+// element:page, section, column, item
+// key:1.2.3
+// example
+// "key"="layout"
+// "key" = "section@1
+// "key" = "column@1.1
+// "key" = "item@1.1.1
+
+//components
+// span
+// label
+// textarea
+//
+
+
+//DRAG and DROP format
+{
+  "type": "item",
+  "component": "text",
+  "id": "0.0.1"
+  "mode": "add" or  "move",
+}

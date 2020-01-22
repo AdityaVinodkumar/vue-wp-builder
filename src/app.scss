@@ -1,0 +1,155 @@
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+#app {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto';
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 100%;
+}
+.full-container{
+    width: 100%;
+    height: 100%;
+}
+.layout-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w-100p {
+    width: 100%;
+}
+//property////////////////////////////////////////////
+.element-property {
+    background-color: #1f232a;
+    color: #adafb1;
+    font-size: 14px;
+}
+.property-header {
+    height: 40px;
+    padding:5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    background-color: #14181f;
+}
+.property-elements {
+    width: 100%;
+    padding: 0px;
+}
+.property-element {
+    width: 100%;
+    padding: 10px;
+}
+.property-element-divider {
+    width: 100%;
+    background-color: rgba(126,126,126,0.7);
+    margin: 5px 0px 5px 0px;
+    height: 1px;
+}
+.property-element-title {
+    margin: 2px;
+}
+.property-element-input {
+    width: 100% !important;
+    height:35px !important;
+    padding: 5px !important;
+}
+.property-tab{
+    width: 100%;
+    padding: 0px;
+}
+.nav-link {
+    color: #adafb1 !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #3e7bd7 !important;
+    background-color: transparent !important;
+    // border-color: transparent;
+    border-bottom-color: #3e7bd7 !important;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+}
+.el-input-number.is-controls-right .el-input__inner {
+    padding-left: 3px !important;
+    padding-right: 30px !important;
+    text-align: left !important;
+}
+.el-slider {
+    width :65% !important;
+    margin-left:3px !important;
+}
+.el-input-number {
+    width: 30% !important;
+    margin-left:3px !important;
+}
+.el-tooltip__popper.is-dark{
+    display: none !important;
+}
+.el-input-number.is-controls-right .el-input-number__increase,
+.el-input-number.is-controls-right .el-input-number__decrease {
+    width: 30px !important;
+}
+.el-radio-group {
+    width: 100% !important;
+    height: 40px !important;
+    .el-radio-button {
+        width: 50%;
+        .el-radio-button__inner{
+            width: 100%;
+            height: 40px;
+        }
+    }
+}
+.el-tabs__nav-wrap.is-scrollable {
+    padding : 0px !important;
+}
+.el-tabs__item {
+    padding: 5px !important;
+}
+.el-tabs--border-card {
+    background: transparent !important;
+    border-width: 0px !important;
+    width: 100% !important;
+}
+.el-tabs--border-card>.el-tabs__header {
+    background-color: #c2c2c2 !important;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item {
+    background-color: #c2c2c2 !important;
+    border-color: #adafb1 !important;
+    color: #555555 !important;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+    color: #409EFF !important;
+}
+.el-tabs--border-card>.el-tabs__content {
+    padding: 10px 0px !important;
+    display: flex;
+    flex-direction: column;
+}
+.el-popper[x-placement^=bottom] {
+    margin-top: -1px !important;
+}
+.el-color-picker__color {
+    border-width: 0px !important;
+}

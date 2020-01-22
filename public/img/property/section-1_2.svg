@@ -1,0 +1,24 @@
+<svg id="_1_2" data-name="1/2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="60" viewBox="0 0 80 60">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 11px;
+        fill: #3a4d5d;
+        text-anchor: middle;
+        font-family: OpenSans;
+      }
+
+      .cls-2 {
+        fill: #3e7bd7;
+      }
+    </style>
+  </defs>
+  <g id="bg">
+    <image id="bg-top" width="80" height="60" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAYAAADxJz2MAAABFUlEQVR4nO3bMU5CQRRA0TcDEUhs3IiUNm6FbdCxEzqWYQkrsLawosQY9X+GBDDjBiDcRPzxnhW8d/OmnPTyur7dlt2qbcv9/nBIoZN6OR9Ho8HzcHDz2C9lt/z8asdmO189tNospfSUm7YY70JNs33IPtvL1Xa5q8P/FQaEDAgZEDIgZEDIgJABIQNCBoQMCBkQMiCU3j+aY6c3uDIvEDIgZEDIgJABIQNCBoQMCBkQMiBkQMiAkAEhA0IGhAwIGRAyIGRAyICQASEDQgaEDAgZEDIgZEDIgJABIQNCBoQMCBkQMiBkQMiAkAEhA0IGhGrATac3uK5NDbj4zwWgeT8ipvXHUkRMIuKu0+v8nrefw4uYfQOs1zK6E6nHPQAAAABJRU5ErkJggg=="/>
+    <text id="_1_2_-_1_2" data-name="1/2 - 1/2" class="cls-1" x="41" y="13">1/2 - 1/2</text>
+  </g>
+  <g id="main">
+    <rect id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-2" x="10" y="26" width="28" height="23" rx="3" ry="3"/>
+    <rect id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-2" x="41" y="26" width="28" height="23" rx="3" ry="3"/>
+  </g>
+</svg>

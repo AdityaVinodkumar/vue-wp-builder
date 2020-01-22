@@ -1,0 +1,33 @@
+{
+  "name": "Page",
+  "description": "Page",
+  "propertyTitle": "PAGE PROPERTIES",
+  "property": {
+    "custom":[
+      {
+        "label": "Page title",
+        "component": "<input/>",
+        "param": "pageTitle"
+      },
+      {
+        "label": "Page meta title",
+        "component": "input",
+        "param": "metaTitle"
+      },
+      {
+        "label": "Page meta description",
+        "component": "textarea",
+        "param": "metaDesc"
+      },
+      {
+        "label": "Page Background",
+        "component": "custom-background",
+        "condition": "Max. 60 characters",
+        "param": "metaDesc"
+      }
+    ]
+  },
+  "style": {
+    "background": "#123123"
+  }
+}
